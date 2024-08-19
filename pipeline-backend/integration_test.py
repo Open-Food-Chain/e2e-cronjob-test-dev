@@ -7,7 +7,7 @@ load_dotenv()
 
 def test_integration_test_endpoint(base_url):
     # Define the endpoint URL
-    url = f"{base_url}/integration_test"
+    url = f"{base_url}"
     
     try:
         # Make a GET request to the /integration_test endpoint
